@@ -144,7 +144,7 @@ function loadModel()
 	manager.onProgress = ( item, loaded, total ) => console.log( item, loaded, total );
 
 	var loader = new THREE.OBJLoader( manager );
-	loader.load( 'https://assets.codepen.io/557388/1405+Plane_1.obj', function ( obj ) { object = obj; });
+	loader.load(  './1405+Plane_1.obj', function ( obj ) { object = obj; });
 }
 
 function setupAnimation(model)
